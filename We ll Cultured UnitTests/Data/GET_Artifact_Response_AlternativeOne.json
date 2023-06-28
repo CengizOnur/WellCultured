@@ -1,0 +1,76 @@
+{
+    "objectID": 252906,
+    "isHighlight": false,
+    "accessionNumber": "27.120.8",
+    "accessionYear": "1927",
+    "isPublicDomain": true,
+    "primaryImage": "https://images.metmuseum.org/CRDImages/gr/original/DP2007.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/gr/web-large/DP2007.jpg",
+    "additionalImages": [
+        
+    ],
+    "constituents": null,
+    "department": "Greek and Roman Art",
+    "objectName": "Kylix",
+    "title": "Terracotta kylix (drinking cup) with flower",
+    "culture": "Mycenaean",
+    "period": "Late Helladic IIIB1",
+    "dynasty": "",
+    "reign": "",
+    "portfolio": "",
+    "artistRole": "",
+    "artistPrefix": "",
+    "artistDisplayName": "",
+    "artistDisplayBio": "",
+    "artistSuffix": "",
+    "artistAlphaSort": "",
+    "artistNationality": "",
+    "artistBeginDate": "",
+    "artistEndDate": "",
+    "artistGender": "",
+    "artistWikidata_URL": "",
+    "artistULAN_URL": "",
+    "objectDate": "ca. 1300–1225 B.C.",
+    "objectBeginDate": -1300,
+    "objectEndDate": -1225,
+    "medium": "Terracotta",
+    "dimensions": "H. 7 3/4 in. (19.6 cm.)\r\nDiameter 6 3/4 in. (17.1 cm.)",
+    "measurements": [
+        {
+            "elementName": "Other",
+            "elementDescription": null,
+            "elementMeasurements": {
+                "Diameter": 17.09
+            }
+        },
+        {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+                "Height": 19.61
+            }
+        }
+    ],
+    "creditLine": "Gift of the Greek Government, 1927",
+    "geographyType": "",
+    "city": "",
+    "state": "",
+    "county": "",
+    "country": "",
+    "region": "",
+    "subregion": "",
+    "locale": "",
+    "locus": "",
+    "excavation": "",
+    "river": "",
+    "classification": "Vases",
+    "rightsAndReproduction": "",
+    "linkResource": "",
+    "metadataDate": "2021-10-23T04:38:59.083Z",
+    "repository": "Metropolitan Museum of Art, New York, NY",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/252906",
+    "tags": null,
+    "objectWikidata_URL": "",
+    "isTimelineWork": false,
+    "GalleryNumber": "171"
+}
