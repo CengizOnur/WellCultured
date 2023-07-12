@@ -67,7 +67,7 @@ final class DiscoverViewController: UIViewController {
         view.addSubview(searchButton)
         
         // keyboard
-        self.hideKeyboardWhenTappedAround()
+        hideKeyboardWhenTappedAround()
         if #available(iOS 15.0, *) {
             searchField.bottomAnchor.constraint(lessThanOrEqualTo: view.keyboardLayoutGuide.topAnchor, constant: -8).isActive = true
         }
@@ -139,9 +139,20 @@ final class DiscoverViewController: UIViewController {
         }
         dismissKeyboard()
         let exhibitionVC = ExhibitionViewController()
-        exhibitionVC.query = searchField.text
-        exhibitionVC.title = searchField.text?.capitalized
+        exhibitionVC.query = getLongestWord(from: searchField.text!)
+        exhibitionVC.title = getLongestWord(from: searchField.text!).capitalized
         navigationController?.pushViewController(exhibitionVC, animated: true)
+    }
+    
+    /// To get better result from museum API, choose longest word in the text field if a user type more than one word
+    /// Ex: "A flower" => query should be "flower"
+    func getLongestWord(from: String) -> String {
+        let wordArray = from.components(separatedBy: " ")
+        if let max = wordArray.max(by: { $1.count > $0.count} ) {
+            return max
+        } else {
+            return ""
+        }
     }
 }
 
