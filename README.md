@@ -10,6 +10,7 @@
 - MVC
 - No third party library except RealmSwift
 
+### * Note: Pods/ are not added, so you should run "pod install".
 
 ## Screenshots
 
